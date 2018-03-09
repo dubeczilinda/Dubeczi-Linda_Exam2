@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/movies.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="split container">
+        <div class="movies" id="movies">
+
+        </div>
+    </div>
+    <div class="split search">
+
+        <span>
+            <i class="fas fa-search"></i>
+        </span>
+        <input type="text" id="search1" placeholder="Cím alapján">
+        <br>
+        <span>
+            <i class="fas fa-search"></i>
+        </span>
+        <input type="text" id="search2" placeholder="Rendező neve alapján">
+        <br>
+        <span>
+            <i class="fas fa-search"></i>
+        </span>
+        <input type="text" id="search3" placeholder="Főszereplő szerint">
+        <br>
+        <input type="button" id="search-button" value="Keress">
+        <p id="notFound"></p>
+        <div id="statistic1"></div>
+        <div id="statistic2"></div>
+        <div id="filter"></div>
+        <div id="countCategories"></div>
+
+    </div>
+    <script src="/js/movies.js"></script>
+</body>
+</html>
